@@ -1,0 +1,27 @@
+img {
+	width: 450px;
+	height: 300px;
+	margin: 10px;
+	transition: all 0.4s;
+}
+
+img:hover {
+	transform: scale(1.1);
+}
+
+.container {
+	display: flex;
+	flex-flow: wrap;
+	justify-content: center;
+}
+
+h1 {
+	text-align: center;
+	font-family: fantasy;
+	font-size: 3em;
+	border-bottom: 2px solid red;
+	width: 400px;
+	margin: auto;
+	margin-bottom: 10px;
+
+}
