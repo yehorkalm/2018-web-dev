@@ -1,0 +1,29 @@
+##DOM Selectors
+--------------
+getElementsByTagName      returns an array
+getElementsByClassName    returns an array
+getElementById
+
+querySelector             select first item (h1 or li or whatever elements)
+querySelectorAll
+
+getAttribute              get an attribute from the element (random=3 in this example)
+setAttribute              set an --//--//--//--
+
+##Changing Styles
+style.{property} //ok     inline styles
+
+className //best          
+classList //best
+
+classList.add
+classList.remove
+classList.toggle
+
+##Bonus
+innerHTML //DANGEROUS     replaces whats inside the element (i.e text inside of h1)
+
+parentElement
+children
+
+##It is important to CACHE selectors in variables

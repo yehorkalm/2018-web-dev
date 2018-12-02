@@ -1,0 +1,142 @@
+#yk {
+  width: 16%;
+  height: 16%;
+}
+
+/* .navbar-brand {
+  position: relative;
+  background: url('assets/YKdev.png');
+  width: 170px;
+  left: 15px;
+} */
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  display: inline-block;
+}
+
+/* .carousel-inner {
+  width: 100%;
+  height: 100vh;
+} */
+
+.carousel-control-prev:hover>.carousel-control-prev-icon {
+  transform: scale(1.4);
+}
+
+.carousel-control-next:hover>.carousel-control-next-icon {
+  transform: scale(1.4);
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  transition: 0.7s;
+}
+
+.absolute {
+  position: absolute;
+  top: 30vh;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+}
+
+.landingText {
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  font-size: 4vw;
+  color: white;
+  text-transform: uppercase;
+  transition: all 200ms linear;
+}
+
+.boldLandingText {
+  font-size: 5vw;
+  font-weight: 900;
+}
+
+#about {
+  color: black;
+  font-size: 3vw;
+  font-weight: 900;
+  margin-top: 8vh;
+}
+
+
+.navbar-light .navbar-nav .nav-link {
+  color: #262626;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #396692;
+}
+
+.navbarButton {
+  display: block;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-size: 12px;
+  /* line-height: 60px; */
+  height: 40px;
+  text-decoration: none;
+  text-transform: uppercase;
+  position: relative;
+  top: 16px;
+  z-index: 45;
+  padding: 0px 14px;
+  /* margin-top: 30px; */
+  /* margin-bottom: 0; */
+  width: auto;
+  transition: all 200ms linear;
+}
+
+a {
+  width: 100px;
+}
+
+a:hover {
+  text-decoration: none;
+  color: lightblue;
+}
+
+.card {
+  margin: auto;
+}
+
+.objCover {
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+}
+
+
+.btn-default {
+  position: relative;
+  top: 60vh;
+  left: 45%;
+  font-weight: bold;
+  font-size: 1.5vw;
+
+  font-size: 1.5vw;
+  color: rgba(255, 146, 0, 0.75);
+  letter-spacing: 1px;
+  /* line-height: 15px; */
+  border: 2px solid rgba(255, 146, 0, 0.75);
+  border-radius: 40px;
+  background: transparent;
+  transition: all 0.2s ease 0s;
+}
+
+.btn-default:hover {
+  color: #FFF;
+  background: rgba(255, 146, 0, 0.75);
+  border: 2px solid rgba(255, 146, 0, 0.75);
+}
+
+.btn-default:hover~.landingText {
+  transform: translateY(-10px) scale(1.1);
+}
