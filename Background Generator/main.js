@@ -9,7 +9,7 @@ color1.addEventListener('input', updateColors);
 color2.addEventListener('input', updateColors);
 
 function updateColors() {
-  currentColors.innerHTML = color1.value + ' -- ' + color2.value;
   body.style.background = "linear-gradient(to right, " + color1.value + ", " + color2.value + ")";
+  currentColors.innerText = body.style.background;
 
 }
